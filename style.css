@@ -1,0 +1,784 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.call {
+    display: block;
+    margin-left: 47rem;
+}
+
+
+
+.call ul li {
+    float: left;
+    list-style: none;
+    margin-left: 97px;
+    line-height: 3;
+    font-size: 21px;
+}
+.call ul li i {
+    font-size: 16px;
+    padding-right: 10px;
+}
+.call ul li button {
+    padding: 12px 41px;
+    background: #d3331d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.call ul li button:hover{
+    background-color: #000;
+}
+
+
+.items {
+    width: 90%;
+    margin: auto;
+}
+.header-bottom {
+    width: 100%;
+    background: red;
+}
+.logo {
+    width: 20%;
+    float: left;
+    margin-right: 200px;
+}
+
+
+.menu ul li {
+    float: left;
+    list-style: none;
+    padding: 14px;
+}
+.menu ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    font-family: math;
+}
+.menu ul li a:hover{
+    color: #d3331d;
+}
+
+
+/* Hero section start*/
+.her-section {
+    margin-top: 23px;
+}
+.banner-section {
+    background-image: url(https:media.istockphoto.com/id/1221705988/photo/woman-looking-through-the-window-at-sunset.jpg?s=170667a&w=0&k=20&c=TIK4fS-R0zKykSEz1tYdOkgqDJZ6IInxd2tCvkAE44o=);
+    height: 565px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.text-banner {
+    color: #fff;
+    padding-top: 7rem;
+    margin-left: 40rem;
+}
+.text-banner h4 {
+    color: #d3331d;
+}
+.text-banner h1 {
+    font-size: 43px;
+    color: #000;
+}
+
+.banner-btn button {
+    padding: 18px 64px;
+    margin-right: -5px;
+    border: none;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+/* Hero section end*/
+
+
+
+/* Branding section start*/
+
+
+.band-items {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.band-con h4 {
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.band-logo {
+    margin-left: 99px;
+    margin-top: 23px;
+}
+
+.band-logo li {
+    float: left;
+    list-style: none;
+    font-size: 85px;
+    padding: 13px 40px;
+    color: #d2d0d0;
+    cursor: pointer;
+}
+.band-logo i:hover{
+    color: #d3321d3f;
+}
+
+/* Branding section end*/
+
+
+/* World section start*/
+
+
+
+
+.wor-items{
+    background-image: url(https:img.freepik.com/free-vector/colorful-bokeh-background-with-sparkly-particles_52683-35982.jpg?w=2000);
+    height: 565px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.wor-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #8802a28f;
+}
+.wor-content {
+    text-align: center;
+    padding-top: 130px;
+    
+    margin: auto;
+}
+.wor-content h1 {
+    font-size: 50px;
+    font-family: math;
+}
+.wor-content p {
+    padding-bottom: 20px;
+    color: #fff;
+    line-height: 2;
+}
+.wor-content span {
+    padding: 26px;
+    display: block;
+    font-size: 51px;
+    font-family: 'Great Vibes', cursive;
+    color: #ffffff;
+}
+.wor-content button{
+    padding: 12px 41px;
+        background: #d3331d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-weight: 800;
+        cursor: pointer;
+}
+.wor-content button:hover{
+    background-color: #000;
+}
+
+
+
+/* World section end*/
+
+
+/* Programm section start*/
+
+.programm-container {
+    margin-top: 30px;
+}
+
+.pro-heade {
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-top: 54px;
+    margin-bottom: 58px;
+}
+.pro-heade h1{
+    position: relative;
+}
+.pro-heade h1::before {
+    content: "Select Your Programms";
+    position: absolute;
+    left: 500px;
+    top: -8px;
+    right: -37px;
+    height: 20px;
+    width: 364px;
+    line-height: 10px;
+    background: #fff;
+    font-family: monospace;
+}
+.border-pro{
+    width: 80%;
+    margin: auto;
+}
+.border-pro ul {
+    list-style: none;
+    position: relative;
+}
+.border-pro ul::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #d3331d;
+    height: 1px;
+}
+.border-pro li {
+    float: left;
+    text-align: center;
+    padding: 29px 22px;
+    
+    margin: 6px;
+    position: relative;
+    margin-top: 40px;
+}
+.border-pro li::before {
+    content: attr(data-counter);
+    position: absolute;
+    top: -57px;
+    left: 86px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d3331d;
+    border-radius: 50%;
+    background: #f9f9f9;
+    line-height: 29px;
+    cursor: pointer;
+}
+.border-pro span {
+    font-size: 70px;
+    color: #5a5a5a;
+}
+.border-pro p {
+    font-size: 17px;
+    padding: 12px;
+    text-transform: capitalize;
+}
+.probtn button{
+    padding: 12px 41px;
+        background: #d3331d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-weight: 800;
+        cursor: pointer;
+}
+.probtn button:hover{
+    background-color: #000;
+}
+
+
+
+.pro-bottom {
+    background: gainsboro;
+    margin-top: -23px;
+}
+.pro-bot-item {
+    padding-top: 21px;
+    width: 80%;
+    margin: auto;
+}
+.pro-left {
+    height: 300px;
+    width: 19%;
+    float: left;
+    background: #fff;
+    margin-right: 120px;
+}
+.pro-left h3 {
+    padding: 6px;
+    border-bottom: 1px solid;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.pro-left li {
+    list-style: none;
+    padding: 9px 19px;
+}
+.pro-left li:hover{
+    background-color: #d3331d;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.prohead span {
+    font-size: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.pera p {
+    line-height: 23px;
+    text-align: justify;
+    color: #505050;
+}
+
+.prohead h3 {
+    font-size: 27px;
+    font-family: math;
+    margin-bottom: 10px;
+}
+.pera h2 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: monospace;
+}
+.pera ul {
+    background: #000;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.pera ul li {
+    float: left;
+    list-style: none;
+    color: #fff;
+    padding: 17px 64px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Programm section end*/
+
+
+
+/* Featured section start */
+
+
+.featured-container{
+    background-image: url(https:cdn.britannica.com/85/13085-050-C2E88389/Corpus-Christi-College-University-of-Cambridge-England.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 560px;
+    width: 100%;
+    overflow: hidden;
+}
+.featured-items{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #d3331dd1;
+
+}
+.header {
+    position: relative;
+    height: 130px;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 61px;
+    width: 100%;
+    color: #fff;
+    height: 1px;
+    background: #fff;
+}
+.header h1{
+    position: relative;
+}
+.header h1::before {
+    content: "Featured University";
+    position: absolute;
+    left: 430px;
+    top: 31px;
+    width: 36%;
+    background: #ca5747;
+}
+.header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: inherit;
+}
+.frl {
+    width: 80%;
+    margin: auto;
+}
+.fea-l {
+    width: 48%;
+    height: 380px;
+    float: left;
+}
+.fea-l img {
+    width: 92%;
+}
+
+.fea-r .top ul li {
+    list-style: none;
+    float: left;
+    padding: 13px 15px;
+    margin-bottom: 18px;
+    line-height: 0px;
+    border-right: 2px solid #000;
+}
+
+.fea-r .top ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #000;
+}
+
+.fea-r .middle p {
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.fea-r .first-top ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 27px;
+}
+.fea-r .first-top ul li i {
+    color: #fff;
+    margin-right: 7px;
+    font-size: 14px;
+}
+
+.fea-r .secoun-top {
+    color: #fff;
+    margin-top: 21px;
+}
+.fea-r .fre-btn {
+    text-align: center;
+    margin-top: 16px;
+}
+.fea-r .fre-btn button{
+        padding: 12px 41px;
+        background: #000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-weight: 800;
+        cursor: pointer;
+}
+.fea-r .fre-btn button:hover{
+    background-color: #d3331d;
+}
+
+
+
+/* Featured section end */
+
+
+/* Student section start */
+
+
+
+
+.stu-header {
+    position: relative;
+    margin-top: 17px;
+    text-align: center;
+}
+.stu-header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 29px;
+    width: 100%;
+    height: 1px;
+    background: red;
+}
+.stu-header h1{
+    position: relative;
+}
+.stu-header h1::before {
+    position: absolute;
+    content: "Stedunt center";
+    left: 36%;
+    font-size: 45px;
+    font-family: monospace;
+    background: #fff;
+    width: 31%;
+}
+
+
+
+.stu-bottom {
+    padding-top: 85px;
+    width: 80%;
+    margin: auto;
+}
+
+.stu-l {
+    float: left;
+    width: 50%;
+    height: 440px;
+}
+
+.stu-l img {
+    width: 95%;
+}
+
+
+
+.stu-r-header p {
+    font-size: 22px;
+}
+
+.stu-box {
+    width: 49%;
+    float: left;
+    margin-top: 6px;
+}
+
+.stu-box p {
+    background: gainsboro;
+    padding: 11px 3px;
+}
+
+.stulist {
+    float: left;
+}
+
+.stulist ul {
+    float: left;
+    margin-top: 17px;
+}
+
+.stulist ul li {
+    list-style: none;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.stulist ul li i {
+    margin-left: 6px;
+    color: #F44336;
+}
+
+
+/* Student section End */
+
+
+
+/* Touch section start */
+
+.touch-section {
+    background: #d3331d;
+    padding: 49px 0;
+}
+
+.touch-header {
+    position: relative;
+    text-align: center;
+}
+
+.touch-header::before {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 1px;
+}
+
+.touch-header h1 {
+    position: relative;
+}
+
+.touch-header h1::before {
+    content: "Get In Touch";
+    position: absolute;
+    top: 0;
+    left: 40%;
+    background: #d3331d;
+    width: 21%;
+    font-size: 37px;
+    font-family: sans-serif;
+}
+
+
+
+
+.touch-pra {
+    padding-top: 70px;
+}
+
+.touch-pra p {
+    text-align: center;
+    color: #fff;
+}
+
+.touch-in {
+    text-align: center;
+    margin-top: 37px;
+}
+
+.items-one,
+.items-two,
+.items-three {
+    width: 50%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+
+.items-one input {
+    padding: 13px 6px;
+    width: 48%;
+    margin-right: 5px;
+    background: #000;
+    border: none;
+    color: #fff;
+}
+
+.items-two input {
+    padding: 13px 6px;
+        width: 48%;
+        margin-right: 5px;
+        background: #000;
+        border: none;
+        color: #fff;
+}
+
+.items-three input {
+        padding: 13px 6px;
+        width: 48%;
+        margin-right: 5px;
+        background: #000;
+        border: none;
+        color: #fff;
+}
+
+.items-one select {
+    padding: 13px 6px;
+    width: 48%;
+    margin-left: 5px;
+    border: none;
+    background: #000;
+    color: #fff;
+}
+
+.items-two select {
+    padding: 13px 6px;
+        width: 48%;
+        margin-left: 5px;
+        border: none;
+        background: #000;
+        color: #fff;
+}
+
+.items-three button {
+    padding: 13px 6px;
+    width: 48%;
+    background: #000;
+    border: none;
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* Touch section end */
+
+
+
+/* Foooter section start */
+
+
+
+.footer-content {
+    background: black;
+    padding-bottom: 70px;
+    height: 400px;
+}
+
+.footer-items {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-one {
+    color: #fff;
+    width: 25%;
+    float: left;
+}
+
+.footer-one h3 {
+    padding-top: 45px;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-one ul {
+    padding-top: 5px;
+}
+
+.footer-one li {
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer-one li:hover{
+    color: #d3331d;
+}
+.footer-one li i {
+    margin-right: 10px;
+}
+
+
+
+.icon-footer ul li {
+    float: left;
+    font-size: 28px !important;
+    margin-right: 0px;
+}
+.icon-footer ul li a {
+    color: #fff;
+}
+
+
+.copyright {
+    background: black;
+    border-top: 1px solid #808080;
+    padding: 25px;
+}
+
+.copyright p {
+    color: #bababa;
+    padding-left: 107px;
+    width: 96%;
+    float: left;
+}
+
+
+
+.icon-copy a {
+    color: #fff;
+    font-size: 50px;
+}
+.icon-copy a:hover{
+    color: #d3331d;
+}
+
+
+/* Foooter section end */
